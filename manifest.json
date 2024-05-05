@@ -1,13 +1,13 @@
 {
     "name": "Minha PWA",
     "short_name": "Minha PWA",
-    "start_url": "/",
+    "start_url": "/learning-pwa/",
     "display": "standalone",
     "background_color": "#3367D6",
     "theme_color": "#3367D6",
     "icons": [
         {
-            "src": "/free-wi.png",
+            "src": "/learning-pwa/free-wi.png",
             "sizes": "192x192",
             "type": "image/png"
         }

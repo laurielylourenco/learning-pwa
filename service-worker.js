@@ -2,10 +2,10 @@ self.addEventListener('install', function(event) {
     event.waitUntil(
       caches.open('minha-pwa-v1').then(function(cache) {
         return cache.addAll([
-          '/',
-          '/index.html',
-          '/https://laurielylourenco.github.io/learning-pwa/.json',
-          '/free-wi.png'
+          '/learning-pwa',
+          '/learning-pwa/index.html',
+          '/learning-pwa/manifest.json',
+          '/learning-pwa/free-wi.png'
         ]);
       })
     );
