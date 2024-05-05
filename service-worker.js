@@ -4,7 +4,7 @@ self.addEventListener('install', function(event) {
         return cache.addAll([
           '/',
           '/index.html',
-          '/manifest.json',
+          '/https://laurielylourenco.github.io/learning-pwa/.json',
           '/free-wi.png'
         ]);
       })
